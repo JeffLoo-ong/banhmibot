@@ -1,0 +1,25 @@
+{
+  "name": "banhmibot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "config.js",
+  "dependencies": {
+    "express": "^4.16.4",
+    "node-wit": "^5.0.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JeffLoo-ong/banhmibot.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JeffLoo-ong/banhmibot/issues"
+  },
+  "homepage": "https://github.com/JeffLoo-ong/banhmibot#readme"
+}
