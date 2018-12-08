@@ -25,7 +25,7 @@ const client = new Wit({
   logger: new log.Logger(log.DEBUG) // optional
 });
 
-app.get('/', (req, res) => {
+app.post('/ask', (req, res) => {
   const sQuery = req.body.query;
   if(!sQuery || sQuery.length < 1){
     res.status(400).json({
